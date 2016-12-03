@@ -1,4 +1,5 @@
-package model;
+package com.jss.model;
+
 
 import lombok.Data;
 
@@ -9,8 +10,8 @@ import javax.persistence.*;
  */
 @Data
 @Entity
-@Table(name = "prepods")
-public class Prepod {
+@Table(name = "students")
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,12 +19,13 @@ public class Prepod {
     @Column
     private String name;
     @Column
-    private int experience;
-    @Column
-    private int lesson_id;//(Один препод ведет один предмет)
+    private int group_id;
 
-
-    public Prepod() {
+    public Student() {
     }
 
+    public Student(String name, int group_id) {
+        this.name = name;
+        this.group_id = group_id;
+    }
 }

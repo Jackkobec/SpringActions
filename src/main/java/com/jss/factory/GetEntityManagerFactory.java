@@ -1,4 +1,4 @@
-package factory;
+package com.jss.factory;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;

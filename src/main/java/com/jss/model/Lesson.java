@@ -1,4 +1,4 @@
-package model;
+package com.jss.model;
 
 import lombok.Data;
 

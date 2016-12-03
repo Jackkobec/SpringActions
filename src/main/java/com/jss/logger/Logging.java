@@ -1,4 +1,4 @@
-package logger;
+package com.jss.logger;
 
 import org.apache.log4j.*;
 import org.apache.log4j.xml.XMLLayout;

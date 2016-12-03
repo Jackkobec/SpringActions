@@ -1,4 +1,4 @@
-package factory;
+package com.jss.factory;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -15,8 +15,8 @@ public class LazySingletonEntityManagerfactory {
 
     public static EntityManagerFactory getEntityMangerFactory() {
 
-//        if (null == factory) {
-//            factory = Persistence.createEntityManagerFactory("hibernate-unit");
+//        if (null == spring_task.factory) {
+//            spring_task.factory = Persistence.createEntityManagerFactory("hibernate-unit");
 //        }
 
 
