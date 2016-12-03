@@ -18,7 +18,7 @@ import java.util.List;
  */
 //instead @Component
 @org.springframework.stereotype.Service//cause name of file and class equals annotation name
-public class Service<ENTITY_CLASS, ID_TYPE> {
+public class Service<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID_TYPE> {
 
 
 //    @Autowired
@@ -32,30 +32,50 @@ public class Service<ENTITY_CLASS, ID_TYPE> {
     @Autowired
     private GeneralDAO generalDAO;
 
-    public boolean saveToDB(ENTITY_CLASS entity){
+    @Override
+    public boolean saveToDB(ENTITY_CLASS entity) {
 
         return generalDAO.create(entity).equals(entity) ? true : false;
     }
 
 
+    @Override
     public ENTITY_CLASS getById(ID_TYPE id, Class<ENTITY_CLASS> cl) {
 
         return (ENTITY_CLASS) generalDAO.findById(id, cl);
     }
 
+    @Override
     public List<ENTITY_CLASS> getAllByEntityClass(Class<ENTITY_CLASS> entityClass) {
 
         return generalDAO.getAllByEntityClass(entityClass);
     }
 
+    @Override
     public List<ENTITY_CLASS> getAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, String parameter,
-                                                       Object valueOfParameter) {
+                                                              Object valueOfParameter) {
 
         return generalDAO.getAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
     }
 
+    @Override
+    public boolean removeById(ID_TYPE id, Class<ENTITY_CLASS> entityClass) {
 
+        return generalDAO.removeById(id, entityClass);
+    }
 
+    @Override
+    public boolean removeAllByEntityClass(Class<ENTITY_CLASS> entityClass) {
+
+        return generalDAO.removeAllByEntityClass(entityClass);
+    }
+
+    @Override
+    public boolean removeAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, String parameter,
+                                                      Object valueOfParameter) {
+
+        return generalDAO.removeAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
+    }
 
 
 }

@@ -3,6 +3,7 @@ package com.jss.console_tests;
 import com.jss.dao.CommonDAO;
 import com.jss.dao.StudentDAO;
 import com.jss.model.Student;
+import com.jss.service.IService;
 import com.jss.service.Service;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -24,7 +25,7 @@ public class ConsoleTest {
 
         CommonDAO commonDAO = context.getBean(StudentDAO.class);
 
-        Service service = context.getBean(Service.class);
+        IService iservice = context.getBean(Service.class);
 
         //commonDAO.create(new Student("Kolyan", 7));
 
@@ -32,7 +33,14 @@ public class ConsoleTest {
 
 
         //System.out.println(commonDAO.getAllByEntityClassAndParameter(Student.class, "group_id", 7));
-        System.out.println(service.saveToDB(new Student("Serhii", 22)));
+        //System.out.println(service.saveToDB(new Student("Serhii", 22)));
+        //System.out.println(service.removeById(11, Student.class));
+        //System.out.println(service.getById(11, Student.class));
+//        for (int i = 0; i < 12; i++) {
+//
+//            System.out.println(service.saveToDB(new Student("Serhii", 22)));
+//        }
+        System.out.println(iservice.removeAllByEntityClassAndParameter(Student.class, "group_id", 22));
 
 
     }

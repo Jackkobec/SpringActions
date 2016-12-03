@@ -4,10 +4,12 @@ import com.jss.model.Student;
 import com.jss.service.Service;
 import lombok.Data;
 import org.apache.log4j.Logger;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import javax.persistence.Query;
 import java.util.List;
 
 import static com.jss.factory.LazySingletonEntityManagerfactory.getEntityMangerFactory;
@@ -28,34 +30,17 @@ public class StudentDAO extends GeneralDAO<Student, Integer> implements CommonDA
     Logger LOGGER = Logger.getLogger(Service.class);
     EntityManagerFactory factory = getEntityMangerFactory();
 
-    public StudentDAO() {
-    }
 
-    public Student getStudentById(int id) {
-
-
-        EntityManager manager = factory.createEntityManager();
-        //EntityTransaction transaction = manager.getTransaction();
-
-        try {
-
-            Student student = manager.find(Student.class, id);
-            LOGGER.info("Finded entity with id = " + id);
-            return student;
-
-        } finally {
-            manager.close();
-        }
-    }
-
-
+    @org.springframework.data.jpa.repository.Query("select form Student s where b.group_id = :group_id ")
     @Override
-    public List<Student> findAllByParam(Object param) {
-        return null;
+    public boolean removeAllByEntityClassAndParameter(@Param("group_id") int group_id) {
+
+
+        return false;
     }
 
     @Override
-    public boolean removeById(Integer id) {
+    public boolean removeAllByEntityClassAndParameter(Class<Student> entityClass, String parameter, Object valueOfParameter) {
         return false;
     }
 
@@ -63,4 +48,5 @@ public class StudentDAO extends GeneralDAO<Student, Integer> implements CommonDA
     public boolean addNewEntity(Student entity) {
         return false;
     }
+
 }
