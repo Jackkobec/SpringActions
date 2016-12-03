@@ -1,0 +1,1323 @@
+2016-12-03 14:49:10 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 14:49:10 EET 2016]; root of context hierarchy
+2016-12-03 14:50:44 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 14:50:44 EET 2016]; root of context hierarchy
+2016-12-03 14:53:52 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 14:53:52 EET 2016]; root of context hierarchy
+2016-12-03 14:58:23 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 14:58:23 EET 2016]; root of context hierarchy
+2016-12-03 14:59:05 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 14:59:05 EET 2016]; root of context hierarchy
+2016-12-03 15:01:37 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 15:01:37 EET 2016]; root of context hierarchy
+2016-12-03 15:13:14 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 15:13:14 EET 2016]; root of context hierarchy
+2016-12-03 15:15:55 DEBUG PathMatchingResourcePatternResolver:187 - Found Equinox FileLocator for OSGi bundle URL resolution
+2016-12-03 15:15:56 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-12-03 15:15:56 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-12-03 15:15:56 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-12-03 15:15:57 DEBUG PathMatchingResourcePatternResolver:424 - Resolved location pattern [classpath*:ios/app-xml-annot-context/xml/**/*.class] to resources []
+2016-12-03 15:15:57 INFO  AnnotationConfigApplicationContext:578 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: startup date [Sat Dec 03 15:15:57 EET 2016]; root of context hierarchy
+2016-12-03 15:15:57 DEBUG AnnotationConfigApplicationContext:612 - Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@1c5e7b4: org.springframework.beans.factory.support.DefaultListableBeanFactory@38203: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory]; root of factory hierarchy
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:15:57 DEBUG AnnotationConfigApplicationContext:718 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1205a84]
+2016-12-03 15:15:57 DEBUG AnnotationConfigApplicationContext:742 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@14e1548]
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:741 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@38203: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-03 15:15:57 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:15:58 DEBUG AnnotationConfigApplicationContext:769 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1c27452]
+2016-12-03 15:15:58 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-12-03 15:15:58 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-12-03 15:15:58 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-12-03 15:15:58 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-12-03 15:17:16 DEBUG PathMatchingResourcePatternResolver:187 - Found Equinox FileLocator for OSGi bundle URL resolution
+2016-12-03 15:17:16 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-12-03 15:17:16 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-12-03 15:17:16 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-12-03 15:17:16 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@ac736f: startup date [Sat Dec 03 15:17:16 EET 2016]; root of context hierarchy
+2016-12-03 15:17:16 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-12-03 15:17:16 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-12-03 15:17:16 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-12-03 15:17:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app-xml-annot-context.xml]
+2016-12-03 15:17:17 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-12-03 15:17:17 DEBUG PluggableSchemaResolver:141 - Loading schema mappings from [META-INF/spring.schemas]
+2016-12-03 15:17:17 DEBUG PluggableSchemaResolver:147 - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.2.xsd}
+2016-12-03 15:17:17 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+2016-12-03 15:17:17 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2016-12-03 15:17:17 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2016-12-03 15:17:18 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/aop/spring-aop-2.0.xsd] in classpath: org/springframework/aop/config/spring-aop-2.0.xsd
+2016-12-03 15:17:18 DEBUG DefaultBeanDefinitionDocumentReader:92 - Loading bean definitions
+2016-12-03 15:17:18 DEBUG DefaultNamespaceHandlerResolver:157 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2016-12-03 15:17:18 DEBUG StandardEnvironment:109 - Adding [systemProperties] PropertySource with lowest search precedence
+2016-12-03 15:17:18 DEBUG StandardEnvironment:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-12-03 15:17:18 DEBUG StandardEnvironment:127 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-12-03 15:17:18 DEBUG PathMatchingResourcePatternResolver:631 - Looking for matching resources in directory tree [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task]
+2016-12-03 15:17:18 DEBUG PathMatchingResourcePatternResolver:693 - Searching directory [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task] for files matching pattern [C:/Users/Jack/IdeaProjects/SpringActions/target/classes/spring_task/**/*.class]
+2016-12-03 15:17:18 DEBUG PathMatchingResourcePatternResolver:424 - Resolved location pattern [classpath*:spring_task/**/*.class] to resources [file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\ConsoleTest.class], file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\Service.class], file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\StudentlDAO.class], file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\View.class]]
+2016-12-03 15:17:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\Service.class]
+2016-12-03 15:17:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\StudentlDAO.class]
+2016-12-03 15:17:18 DEBUG ClassPathBeanDefinitionScanner:286 - Identified candidate component class: file [C:\Users\Jack\IdeaProjects\SpringActions\target\classes\spring_task\View.class]
+2016-12-03 15:17:19 DEBUG XmlBeanDefinitionReader:224 - Loaded 11 bean definitions from location pattern [ios/app-xml-annot-context.xml]
+2016-12-03 15:17:19 DEBUG ClassPathXmlApplicationContext:612 - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@ac736f: org.springframework.beans.factory.support.DefaultListableBeanFactory@6be70a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,service,studentlDAO,view,org.springframework.aop.config.internalAutoProxyCreator]; root of factory hierarchy
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-12-03 15:17:19 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-12-03 15:17:20 DEBUG ClassPathXmlApplicationContext:718 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@12bf671]
+2016-12-03 15:17:20 DEBUG ClassPathXmlApplicationContext:742 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1548a08]
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:741 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6be70a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,service,studentlDAO,view,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'service'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'service'
+2016-12-03 15:17:20 DEBUG InjectionMetadata:72 - Registered injected element on class [spring_task.Service]: AutowiredFieldElement for private spring_task.StudentlDAO spring_task.Service.studentlDAO
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'service' to allow for resolving potential circular references
+2016-12-03 15:17:20 DEBUG InjectionMetadata:86 - Processing injected element of bean 'service': AutowiredFieldElement for private spring_task.StudentlDAO spring_task.Service.studentlDAO
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'studentlDAO'
+2016-12-03 15:17:20 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'studentlDAO'
+2016-12-03 15:17:20 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-12-03 15:17:21 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2016-12-03 15:17:21 DEBUG HibernatePersistenceProvider:87 - Located and parsed 1 persistence units; checking each
+2016-12-03 15:17:21 DEBUG HibernatePersistenceProvider:95 - Checking persistence-unit [name=hibernate-unit, explicit-provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [hibernate-unit]
+2016-12-03 15:17:21 DEBUG ProviderChecker:89 - Persistence-unit [hibernate-unit] requested PersistenceProvider [org.hibernate.jpa.HibernatePersistenceProvider]
+2016-12-03 15:17:21 DEBUG LogHelper:102 - PersistenceUnitInfo [
+	name: hibernate-unit
+	persistence provider classname: org.hibernate.jpa.HibernatePersistenceProvider
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/Jack/IdeaProjects/SpringActions/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		model.Student]
+	Mapping files names []
+	Properties [
+		javax.persistence.jdbc.driver: com.mysql.jdbc.Driver
+		javax.persistence.jdbc.password: root
+		javax.persistence.jdbc.url: jdbc:mysql://localhost:3306/testh
+		hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+		hibernate.show_sql: true
+		hibernate.hbm2ddl.auto: update
+		javax.persistence.jdbc.user: root]
+2016-12-03 15:17:21 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2016-12-03 15:17:21 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2016-12-03 15:17:21 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2016-12-03 15:17:21 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2016-12-03 15:17:22 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 15:17:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 15:17:22 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 15:17:22 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2016-12-03 15:17:22 DEBUG RegionFactoryInitiator:88 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2016-12-03 15:17:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration boolean -> org.hibernate.type.BooleanType@10dbc7a
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration boolean -> org.hibernate.type.BooleanType@10dbc7a
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@10dbc7a
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1c30a20
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@1049a04
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration yes_no -> org.hibernate.type.YesNoType@2de64a
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration byte -> org.hibernate.type.ByteType@a7079e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration byte -> org.hibernate.type.ByteType@a7079e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@a7079e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration character -> org.hibernate.type.CharacterType@111171f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration char -> org.hibernate.type.CharacterType@111171f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@111171f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration short -> org.hibernate.type.ShortType@8640fa
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration short -> org.hibernate.type.ShortType@8640fa
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@8640fa
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration integer -> org.hibernate.type.IntegerType@fac082
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration int -> org.hibernate.type.IntegerType@fac082
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@fac082
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration long -> org.hibernate.type.LongType@12e5a8e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration long -> org.hibernate.type.LongType@12e5a8e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@12e5a8e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration float -> org.hibernate.type.FloatType@171a660
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration float -> org.hibernate.type.FloatType@171a660
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@171a660
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration double -> org.hibernate.type.DoubleType@45133e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration double -> org.hibernate.type.DoubleType@45133e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@45133e
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3967ea
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3967ea
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1c668e3
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1c668e3
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration string -> org.hibernate.type.StringType@883b15
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.String -> org.hibernate.type.StringType@883b15
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@77323c
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@86afc2
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration url -> org.hibernate.type.UrlType@109733f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@109733f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration date -> org.hibernate.type.DateType@1a5b54
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1a5b54
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration time -> org.hibernate.type.TimeType@942c18
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@942c18
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration timestamp -> org.hibernate.type.TimestampType@d86a6f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@d86a6f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@d86a6f
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@46a422
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration calendar -> org.hibernate.type.CalendarType@18a5e20
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@18a5e20
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@18a5e20
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@10c8a99
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration locale -> org.hibernate.type.LocaleType@126515b
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@126515b
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration currency -> org.hibernate.type.CurrencyType@1392934
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1392934
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1fe15ff
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1fe15ff
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration class -> org.hibernate.type.ClassType@9175d8
+2016-12-03 15:17:23 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@9175d8
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1e153c5
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1e153c5
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@ea2410
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration binary -> org.hibernate.type.BinaryType@8e319b
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration byte[] -> org.hibernate.type.BinaryType@8e319b
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration [B -> org.hibernate.type.BinaryType@8e319b
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3295b0
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3295b0
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3295b0
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration image -> org.hibernate.type.ImageType@10fe47a
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration characters -> org.hibernate.type.CharArrayType@34b64c
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration char[] -> org.hibernate.type.CharArrayType@34b64c
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration [C -> org.hibernate.type.CharArrayType@34b64c
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@f6d1be
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@f6d1be
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@f6d1be
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration text -> org.hibernate.type.TextType@149d738
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration ntext -> org.hibernate.type.NTextType@1013c76
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration blob -> org.hibernate.type.BlobType@cc7e6f
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@cc7e6f
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@109217e
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration clob -> org.hibernate.type.ClobType@1a51cd4
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1a51cd4
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration nclob -> org.hibernate.type.NClobType@19d0818
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@19d0818
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@140ff9c
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@462f31
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration serializable -> org.hibernate.type.SerializableType@1402b8f
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration object -> org.hibernate.type.ObjectType@160fe40
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@160fe40
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1932c16
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1eb439a
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@14646ef
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5ffe9e
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2c971f
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@172e513
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@e0a9ec
+2016-12-03 15:17:24 DEBUG BasicTypeRegistry:135 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1841320
+2016-12-03 15:17:24 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 15:17:24 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 15:17:24 INFO  DriverManagerConnectionProviderImpl:134 - HHH000046: Connection properties: {user=root, password=root}
+2016-12-03 15:17:24 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 15:17:24 DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+2016-12-03 15:17:24 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 15:17:26 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : MySQL
+    version : 5.7.16-log
+      major : 5
+      minor : 7
+2016-12-03 15:17:26 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+2016-12-03 15:17:26 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 3.0
+2016-12-03 15:17:26 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 15:17:26 DEBUG StandardRefCursorSupport:170 - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+2016-12-03 15:17:27 DEBUG IdentifierHelperBuilder:116 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2016-12-03 15:17:27 DEBUG IdentifierHelperBuilder:182 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2016-12-03 15:17:27 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2016-12-03 15:17:28 DEBUG DefaultIdentifierGeneratorFactory:78 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2016-12-03 15:17:28 DEBUG Namespace:47 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2016-12-03 15:17:28 DEBUG AnnotationBinder:509 - Binding entity from annotated class: model.Group
+2016-12-03 15:17:28 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2016-12-03 15:17:28 DEBUG EntityBinder:389 - Import with entity name Group
+2016-12-03 15:17:28 DEBUG EntityBinder:665 - Bind entity model.Group on table groups
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(groups), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property id with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Group:id]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for id
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property id
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(groups), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(groups), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(groups), mappingColumn=lessonList_KEY, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='lessonList_KEY', referencedColumn='null', mappedBy='null'}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='group_id', referencedColumn='id', mappedBy=''}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='lesson_id', referencedColumn='id', mappedBy=''}
+2016-12-03 15:17:29 DEBUG CollectionBinder:386 - Collection role: model.Group.lessonList
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property lessonList
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(groups), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property name with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Group:name]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for name
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property name
+2016-12-03 15:17:29 DEBUG AnnotationBinder:509 - Binding entity from annotated class: model.Prepod
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2016-12-03 15:17:29 DEBUG EntityBinder:389 - Import with entity name Prepod
+2016-12-03 15:17:29 DEBUG EntityBinder:665 - Bind entity model.Prepod on table prepods
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(prepods), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property id with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Prepod:id]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for id
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property id
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(prepods), mappingColumn=experience, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property experience with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Prepod:experience]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for experience
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property experience
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(prepods), mappingColumn=lesson_id, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property lesson_id with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Prepod:lesson_id]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for lesson_id
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property lesson_id
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(prepods), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property name with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Prepod:name]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for name
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property name
+2016-12-03 15:17:29 DEBUG AnnotationBinder:509 - Binding entity from annotated class: model.Lesson
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2016-12-03 15:17:29 DEBUG EntityBinder:389 - Import with entity name Lesson
+2016-12-03 15:17:29 DEBUG EntityBinder:665 - Bind entity model.Lesson on table lessons
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lessons), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property id with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Lesson:id]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for id
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property id
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lessons), mappingColumn=description, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property description with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Lesson:description]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for description
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property description
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lessons), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lessons), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lessons), mappingColumn=groupList_KEY, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='groupList_KEY', referencedColumn='null', mappedBy='null'}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='lessonList'}
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='lessonList'}
+2016-12-03 15:17:29 DEBUG CollectionBinder:386 - Collection role: model.Lesson.groupList
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property groupList
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(lessons), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property name with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Lesson:name]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for name
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property name
+2016-12-03 15:17:29 DEBUG AnnotationBinder:509 - Binding entity from annotated class: model.Student
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2016-12-03 15:17:29 DEBUG EntityBinder:389 - Import with entity name Student
+2016-12-03 15:17:29 DEBUG EntityBinder:665 - Bind entity model.Student on table students
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property id with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Student:id]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for id
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property id
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property group_id with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Student:group_id]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for group_id
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property group_id
+2016-12-03 15:17:29 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(students), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2016-12-03 15:17:29 DEBUG PropertyBinder:169 - MetadataSourceProcessor property name with lazy=false
+2016-12-03 15:17:29 DEBUG AbstractPropertyHolder:90 - Attempting to locate auto-apply AttributeConverter for property [model.Student:name]
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:384 - building SimpleValue for name
+2016-12-03 15:17:29 DEBUG PropertyBinder:260 - Building property name
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for id
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for name
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for id
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for experience
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for lesson_id
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for name
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for id
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for description
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for name
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for id
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for group_id
+2016-12-03 15:17:29 DEBUG SimpleValueBinder:423 - Starting fillSimpleValue for name
+2016-12-03 15:17:29 DEBUG CollectionSecondPass:51 - Second pass for collection: model.Group.lessonList
+2016-12-03 15:17:29 DEBUG CollectionBinder:1158 - Binding as ManyToMany: model.Group.lessonList
+2016-12-03 15:17:29 DEBUG CollectionSecondPass:68 - Mapped collection key: group_id, element: lesson_id
+2016-12-03 15:17:29 DEBUG CollectionSecondPass:51 - Second pass for collection: model.Lesson.groupList
+2016-12-03 15:17:29 DEBUG CollectionBinder:1158 - Binding as ManyToMany: model.Lesson.groupList
+2016-12-03 15:17:29 DEBUG TableBinder:565 - Retrieving property model.Group.lessonList
+2016-12-03 15:17:29 DEBUG CollectionSecondPass:68 - Mapped collection key: lesson_id, element: group_id
+2016-12-03 15:17:29 DEBUG InFlightMetadataCollectorImpl:1803 - Resolving reference to class: model.Lesson
+2016-12-03 15:17:29 DEBUG InFlightMetadataCollectorImpl:1803 - Resolving reference to class: model.Group
+2016-12-03 15:17:29 DEBUG InFlightMetadataCollectorImpl:1803 - Resolving reference to class: model.Lesson
+2016-12-03 15:17:29 DEBUG InFlightMetadataCollectorImpl:1803 - Resolving reference to class: model.Group
+2016-12-03 15:17:29 DEBUG SessionFactoryImpl:210 - Building session factory
+2016-12-03 15:17:29 DEBUG Settings:69 - SessionFactory name : null
+2016-12-03 15:17:29 DEBUG Settings:70 - Automatic flush during beforeCompletion(): disabled
+2016-12-03 15:17:29 DEBUG Settings:71 - Automatic session close at end of transaction: disabled
+2016-12-03 15:17:29 DEBUG Settings:73 - Statistics: disabled
+2016-12-03 15:17:29 DEBUG Settings:75 - Deleted entity synthetic identifier rollback: disabled
+2016-12-03 15:17:29 DEBUG Settings:76 - Default entity-mode: pojo
+2016-12-03 15:17:29 DEBUG Settings:77 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2016-12-03 15:17:29 DEBUG Settings:78 - Allow initialization of lazy state outside session : disabled
+2016-12-03 15:17:29 DEBUG Settings:80 - Using BatchFetchStyle : LEGACY
+2016-12-03 15:17:29 DEBUG Settings:81 - Default batch fetch size: -1
+2016-12-03 15:17:29 DEBUG Settings:82 - Maximum outer join fetch depth: 2
+2016-12-03 15:17:29 DEBUG Settings:83 - Default null ordering: NONE
+2016-12-03 15:17:29 DEBUG Settings:84 - Order SQL updates by primary key: disabled
+2016-12-03 15:17:29 DEBUG Settings:85 - Order SQL inserts for batching: disabled
+2016-12-03 15:17:29 DEBUG Settings:87 - multi-tenancy strategy : NONE
+2016-12-03 15:17:29 DEBUG Settings:89 - JTA Track by Thread: enabled
+2016-12-03 15:17:29 DEBUG Settings:91 - Query language substitutions: {}
+2016-12-03 15:17:29 DEBUG Settings:92 - JPA query language strict compliance: disabled
+2016-12-03 15:17:29 DEBUG Settings:93 - Named query checking : enabled
+2016-12-03 15:17:29 DEBUG Settings:95 - Second-level cache: enabled
+2016-12-03 15:17:29 DEBUG Settings:96 - Second-level query cache: disabled
+2016-12-03 15:17:29 DEBUG Settings:97 - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@198a075
+2016-12-03 15:17:29 DEBUG Settings:98 - Second-level cache region prefix: null
+2016-12-03 15:17:29 DEBUG Settings:99 - Optimize second-level cache for minimal puts: disabled
+2016-12-03 15:17:29 DEBUG Settings:100 - Structured second-level cache entries: disabled
+2016-12-03 15:17:29 DEBUG Settings:101 - Second-level cache direct-reference entries: disabled
+2016-12-03 15:17:29 DEBUG Settings:102 - Automatic eviction of collection cache: disabled
+2016-12-03 15:17:29 DEBUG Settings:104 - JDBC batch size: 15
+2016-12-03 15:17:29 DEBUG Settings:105 - JDBC batch updates for versioned data: enabled
+2016-12-03 15:17:29 DEBUG Settings:106 - Scrollable result sets: enabled
+2016-12-03 15:17:29 DEBUG Settings:107 - Wrap result sets: disabled
+2016-12-03 15:17:29 DEBUG Settings:108 - JDBC3 getGeneratedKeys(): enabled
+2016-12-03 15:17:29 DEBUG Settings:109 - JDBC result set fetch size: null
+2016-12-03 15:17:29 DEBUG Settings:110 - Connection release mode: ON_CLOSE
+2016-12-03 15:17:29 DEBUG Settings:111 - Generate SQL with comments: disabled
+2016-12-03 15:17:30 DEBUG SessionFactoryImpl:255 - Session factory constructed with filter configurations : {}
+2016-12-03 15:17:30 DEBUG SessionFactoryImpl:256 - Instantiating session factory with properties: {hibernate.connection.password=root, java.runtime.name=Java(TM) SE Runtime Environment, java.vm.version=25.101-b13, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_101\jre\bin, hibernate.connection.username=root, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@98ee84, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, idea.launcher.port=7534, sun.os.patch.level=, user.script=, user.country=RU, sun.java.launcher=SUN_STANDARD, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Jack\IdeaProjects\SpringActions, java.runtime.version=1.8.0_101-b13, javax.persistence.jdbc.user=root, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=x86, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed, java.io.tmpdir=C:\Users\Jack\AppData\Local\Temp\, line.separator=
+, javax.persistence.jdbc.password=root, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, sun.jnu.encoding=Cp1251, javax.persistence.jdbc.url=jdbc:mysql://localhost:3306/testh, java.library.path=C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files\Skype\Phone\;C:\Program Files\Common Files\Acronis\VirtualFile\;C:\Program Files\Common Files\Acronis\SnapAPI\;C:\Program Files\Java\jdk1.8.0_101\bin;., javax.persistence.jdbc.driver=com.mysql.jdbc.Driver, java.class.version=52.0, hibernate.ejb.persistenceUnitName=hibernate-unit, java.specification.name=Java Platform API Specification, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, user.home=C:\Users\Jack, user.timezone=Europe/Helsinki, java.awt.printerjob=sun.awt.windows.WPrinterJob, idea.launcher.bin.path=C:\Program Files\JetBrains\IntelliJ IDEA 2016.2\bin, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=Jack, java.class.path=C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\access-bridge.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Users\Jack\IdeaProjects\SpringActions\target\classes;C:\Users\Jack\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Jack\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Jack\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Jack\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\Jack\.m2\repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;C:\Users\Jack\.m2\repository\org\hibernate\hibernate-entitymanager\5.0.3.Final\hibernate-entitymanager-5.0.3.Final.jar;C:\Users\Jack\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;C:\Users\Jack\.m2\repository\org\hibernate\hibernate-core\5.0.3.Final\hibernate-core-5.0.3.Final.jar;C:\Users\Jack\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Jack\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Jack\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.0.Final\hibernate-commons-annotations-5.0.0.Final.jar;C:\Users\Jack\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Jack\.m2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;C:\Users\Jack\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Jack\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Jack\.m2\repository\org\jboss\jandex\2.0.0.CR1\jandex-2.0.0.CR1.jar;C:\Users\Jack\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-core\4.2.4.RELEASE\spring-core-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-beans\4.2.4.RELEASE\spring-beans-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-context\4.2.4.RELEASE\spring-context-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-aop\4.2.4.RELEASE\spring-aop-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-expression\4.2.4.RELEASE\spring-expression-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-tx\4.2.4.RELEASE\spring-tx-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-orm\4.2.4.RELEASE\spring-orm-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-jdbc\4.2.4.RELEASE\spring-jdbc-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\springframework\spring-test\4.2.4.RELEASE\spring-test-4.2.4.RELEASE.jar;C:\Users\Jack\.m2\repository\org\aspectj\aspectjrt\1.7.4\aspectjrt-1.7.4.jar;C:\Users\Jack\.m2\repository\org\aspectj\aspectjtools\1.7.4\aspectjtools-1.7.4.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2016.2\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.arch.data.model=32, sun.java.command=com.intellij.rt.execution.application.AppMain spring_task.ConsoleTest, java.home=C:\Program Files\Java\jdk1.8.0_101\jre, hibernate.connection.url=jdbc:mysql://localhost:3306/testh, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, user.language=ru, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_101, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+2016-12-03 15:17:30 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2016-12-03 15:17:30 DEBUG CascadeStyles:268 - External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Group] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Group
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Group] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Group
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Prepod] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Prepod
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Prepod] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Prepod
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Lesson] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Lesson
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Lesson] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Lesson
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Student] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Student
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:55 - Not known whether passed class name [model.Student] is safe
+2016-12-03 15:17:30 DEBUG ClassLoaderAccessImpl:57 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Student
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:664 - Static SQL for collection: model.Lesson.groupList
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:666 -  Row insert: insert into learning (lesson_id, group_id) values (?, ?)
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:669 -  Row update: update learning set group_id=? where lesson_id=? and group_id=?
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:672 -  Row delete: delete from learning where lesson_id=? and group_id=?
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:675 -  One-shot delete: delete from learning where lesson_id=?
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:664 - Static SQL for collection: model.Group.lessonList
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:666 -  Row insert: insert into learning (group_id, lesson_id) values (?, ?)
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:669 -  Row update: update learning set lesson_id=? where group_id=? and lesson_id=?
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:672 -  Row delete: delete from learning where group_id=? and lesson_id=?
+2016-12-03 15:17:31 DEBUG AbstractCollectionPersister:675 -  One-shot delete: delete from learning where group_id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3479 - Static SQL for entity: model.Group
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3484 -  Version select: select id from groups where id =?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3487 -  Snapshot select: select group_.id, group_.name as name2_0_ from groups group_ where group_.id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into groups (name, id) values (?, ?)
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:394 -  Update 0: update groups set name=? where id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from groups where id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3495 -  Identity insert: insert into groups (name) values (?)
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ab9998]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [NONE]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=?
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@150e8a6]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [READ]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=?
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@cd9150]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [UPGRADE]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1415a95]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [UPGRADE_NOWAIT]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4f138e]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [UPGRADE_SKIPLOCKED]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@fe9d0a]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [FORCE]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4da2a7]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [PESSIMISTIC_READ]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? lock in share mode
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@d78795]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [PESSIMISTIC_WRITE]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1428937]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [PESSIMISTIC_FORCE_INCREMENT]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1caa550]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [OPTIMISTIC]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=?
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b16078]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Group)
+    - Returns
+       - EntityReturnImpl(entity=model.Group, querySpaceUid=<gen:0>, path=model.Group)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Group)
+          - SQL table alias mapping - group0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Group [OPTIMISTIC_FORCE_INCREMENT]: select group0_.id as id1_0_0_, group0_.name as name2_0_0_ from groups group0_ where group0_.id=?
+2016-12-03 15:17:31 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Group: select group0_.id as id1_0_1_, group0_.name as name2_0_1_, lessonlist1_.group_id as group_id1_1_3_, lesson2_.id as lesson_i2_1_3_, lesson2_.id as id1_2_0_, lesson2_.description as descript2_2_0_, lesson2_.name as name3_2_0_ from groups group0_ left outer join learning lessonlist1_ on group0_.id=lessonlist1_.group_id left outer join lessons lesson2_ on lessonlist1_.lesson_id=lesson2_.id where group0_.id=?
+2016-12-03 15:17:31 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Group: select group0_.id as id1_0_1_, group0_.name as name2_0_1_, lessonlist1_.group_id as group_id1_1_3_, lesson2_.id as lesson_i2_1_3_, lesson2_.id as id1_2_0_, lesson2_.description as descript2_2_0_, lesson2_.name as name3_2_0_ from groups group0_ left outer join learning lessonlist1_ on group0_.id=lessonlist1_.group_id left outer join lessons lesson2_ on lessonlist1_.lesson_id=lesson2_.id where group0_.id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3479 - Static SQL for entity: model.Prepod
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3484 -  Version select: select id from prepods where id =?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3487 -  Snapshot select: select prepod_.id, prepod_.experience as experien2_3_, prepod_.lesson_id as lesson_i3_3_, prepod_.name as name4_3_ from prepods prepod_ where prepod_.id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into prepods (experience, lesson_id, name, id) values (?, ?, ?, ?)
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:394 -  Update 0: update prepods set experience=?, lesson_id=?, name=? where id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from prepods where id=?
+2016-12-03 15:17:31 DEBUG AbstractEntityPersister:3495 -  Identity insert: insert into prepods (experience, lesson_id, name) values (?, ?, ?)
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b534f2]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [NONE]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=?
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56812e]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [READ]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=?
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b01b12]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [UPGRADE]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d9efe0]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [UPGRADE_NOWAIT]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e6516e]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [UPGRADE_SKIPLOCKED]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8ffbc2]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [FORCE]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a855dd]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [PESSIMISTIC_READ]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? lock in share mode
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@187fff7]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [PESSIMISTIC_WRITE]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1d5c1a0]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:31 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:31 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:31 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:31 DEBUG EntityLoader:128 - Static select for entity model.Prepod [PESSIMISTIC_FORCE_INCREMENT]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=? for update
+2016-12-03 15:17:31 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18613b3]
+2016-12-03 15:17:31 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Prepod [OPTIMISTIC]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1389053]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : experience
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lesson_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Prepod)
+    - Returns
+       - EntityReturnImpl(entity=model.Prepod, querySpaceUid=<gen:0>, path=model.Prepod)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Prepod)
+          - SQL table alias mapping - prepod0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Prepod [OPTIMISTIC_FORCE_INCREMENT]: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=?
+2016-12-03 15:17:32 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Prepod: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=?
+2016-12-03 15:17:32 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Prepod: select prepod0_.id as id1_3_0_, prepod0_.experience as experien2_3_0_, prepod0_.lesson_id as lesson_i3_3_0_, prepod0_.name as name4_3_0_ from prepods prepod0_ where prepod0_.id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3479 - Static SQL for entity: model.Lesson
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3484 -  Version select: select id from lessons where id =?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3487 -  Snapshot select: select lesson_.id, lesson_.description as descript2_2_, lesson_.name as name3_2_ from lessons lesson_ where lesson_.id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into lessons (description, name, id) values (?, ?, ?)
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:394 -  Update 0: update lessons set description=?, name=? where id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from lessons where id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3495 -  Identity insert: insert into lessons (description, name) values (?, ?)
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c11999]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [NONE]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f46d94]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [READ]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77b8cf]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [UPGRADE]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7ef029]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [UPGRADE_NOWAIT]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@57e95e]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [UPGRADE_SKIPLOCKED]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@db847e]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [FORCE]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@cbf1a]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [PESSIMISTIC_READ]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? lock in share mode
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11a20d6]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [PESSIMISTIC_WRITE]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c2b546]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [PESSIMISTIC_FORCE_INCREMENT]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11c4c7]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [OPTIMISTIC]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@155b920]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Lesson)
+    - Returns
+       - EntityReturnImpl(entity=model.Lesson, querySpaceUid=<gen:0>, path=model.Lesson)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Lesson)
+          - SQL table alias mapping - lesson0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Lesson [OPTIMISTIC_FORCE_INCREMENT]: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=?
+2016-12-03 15:17:32 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Lesson: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=?
+2016-12-03 15:17:32 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Lesson: select lesson0_.id as id1_2_0_, lesson0_.description as descript2_2_0_, lesson0_.name as name3_2_0_ from lessons lesson0_ where lesson0_.id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3479 - Static SQL for entity: model.Student
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3484 -  Version select: select id from students where id =?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3487 -  Snapshot select: select student_.id, student_.group_id as group_id2_4_, student_.name as name3_4_ from students student_ where student_.id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into students (group_id, name, id) values (?, ?, ?)
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:394 -  Update 0: update students set group_id=?, name=? where id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from students where id=?
+2016-12-03 15:17:32 DEBUG AbstractEntityPersister:3495 -  Identity insert: insert into students (group_id, name) values (?, ?)
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@191009c]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [NONE]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@15cc23a]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [READ]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1edc883]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [UPGRADE]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2f1e9a]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [UPGRADE_NOWAIT]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e9100]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [UPGRADE_SKIPLOCKED]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1cd25ff]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [FORCE]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@174e198]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [PESSIMISTIC_READ]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? lock in share mode
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1b44aa2]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [PESSIMISTIC_WRITE]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1093abe]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [PESSIMISTIC_FORCE_INCREMENT]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=? for update
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@eea57d]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [OPTIMISTIC]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@24ddd0]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : group_id
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Student)
+    - Returns
+       - EntityReturnImpl(entity=model.Student, querySpaceUid=<gen:0>, path=model.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+
+2016-12-03 15:17:32 DEBUG EntityLoader:128 - Static select for entity model.Student [OPTIMISTIC_FORCE_INCREMENT]: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:32 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Student: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:32 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Student: select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6cf502]
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a1da6]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : lessonList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : lessonList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=model.Lesson.groupList)
+    - Returns
+       - CollectionReturnImpl(collection=model.Lesson.groupList, querySpaceUid=<gen:0>, path=[model.Lesson.groupList])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=model.Group, querySpaceUid=<gen:1>, path=[model.Lesson.groupList].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=model.Lesson.groupList)
+          - SQL table alias mapping - grouplist0_
+          - alias suffix - 0_
+          - suffixed key columns - {lesson_i2_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Group)
+                - SQL table alias mapping - group1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+2016-12-03 15:17:32 DEBUG CollectionLoader:96 - Static select for collection model.Lesson.groupList: select grouplist0_.lesson_id as lesson_i2_1_0_, grouplist0_.group_id as group_id1_1_0_, group1_.id as id1_0_1_, group1_.name as name2_0_1_ from learning grouplist0_ inner join groups group1_ on grouplist0_.group_id=group1_.id where grouplist0_.lesson_id=?
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@a22f1c]
+2016-12-03 15:17:32 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1e7a35c]
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : description
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:145 - Property path deemed to be circular : groupList
+2016-12-03 15:17:32 DEBUG MetamodelGraphWalker:137 - Visiting attribute path : name
+2016-12-03 15:17:32 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:76 - Building LoadPlan...
+2016-12-03 15:17:32 DEBUG LoadQueryJoinAndFetchProcessor:95 - processing queryspace <gen:0>
+2016-12-03 15:17:32 DEBUG LoadPlanTreePrinter:55 - LoadPlan(collection=model.Group.lessonList)
+    - Returns
+       - CollectionReturnImpl(collection=model.Group.lessonList, querySpaceUid=<gen:0>, path=[model.Group.lessonList])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=model.Lesson, querySpaceUid=<gen:1>, path=[model.Group.lessonList].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=model.Group.lessonList)
+          - SQL table alias mapping - lessonlist0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=model.Lesson)
+                - SQL table alias mapping - lesson1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+2016-12-03 15:17:32 DEBUG CollectionLoader:96 - Static select for collection model.Group.lessonList: select lessonlist0_.group_id as group_id1_1_0_, lessonlist0_.lesson_id as lesson_i2_1_0_, lesson1_.id as id1_2_1_, lesson1_.description as descript2_2_1_, lesson1_.name as name3_2_1_ from learning lessonlist0_ inner join lessons lesson1_ on lessonlist0_.lesson_id=lesson1_.id where lessonlist0_.group_id=?
+2016-12-03 15:17:32 DEBUG SessionFactoryImpl:462 - Instantiated session factory
+2016-12-03 15:17:32 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: groups
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: groups
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: learning
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: learning
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: lessons
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: lessons
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: prepods
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: prepods
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: students
+2016-12-03 15:17:33 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:338 - HHH000262: Table not found: students
+2016-12-03 15:17:33 DEBUG JtaPlatformInitiator:42 - No JtaPlatform was specified, checking resolver
+2016-12-03 15:17:33 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2016-12-03 15:17:33 DEBUG StandardJtaPlatformResolver:101 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2016-12-03 15:17:34 DEBUG NamedQueryRepository:149 - Checking 0 named HQL queries
+2016-12-03 15:17:34 DEBUG NamedQueryRepository:165 - Checking 0 named SQL queries
+2016-12-03 15:17:34 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7120c8
+2016-12-03 15:17:34 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: a774001e-1677-454f-b995-7627042d0b7d (<unnamed>)
+2016-12-03 15:17:34 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2016-12-03 15:17:34 DEBUG JpaSchemaGenerator:106 - No actions specified; doing nothing
+2016-12-03 15:17:34 DEBUG EntityManagerFactoryRegistry:39 - Initializing EntityManagerFactoryRegistry : org.hibernate.jpa.internal.EntityManagerFactoryRegistry@bd581e
+2016-12-03 15:17:34 DEBUG EntityManagerFactoryRegistry:49 - Registering EntityManagerFactory: hibernate-unit 
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'studentlDAO' to allow for resolving potential circular references
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'studentlDAO'
+2016-12-03 15:17:34 DEBUG AutowiredAnnotationBeanPostProcessor:492 - Autowiring by type from bean name 'service' to bean named 'studentlDAO'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'service'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'studentlDAO'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:221 - Creating shared instance of singleton bean 'view'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:448 - Creating instance of bean 'view'
+2016-12-03 15:17:34 DEBUG InjectionMetadata:72 - Registered injected element on class [spring_task.View]: AutowiredFieldElement for private spring_task.Service spring_task.View.service
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:529 - Eagerly caching bean 'view' to allow for resolving potential circular references
+2016-12-03 15:17:34 DEBUG InjectionMetadata:86 - Processing injected element of bean 'view': AutowiredFieldElement for private spring_task.Service spring_task.View.service
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'service'
+2016-12-03 15:17:34 DEBUG AutowiredAnnotationBeanPostProcessor:492 - Autowiring by type from bean name 'view' to bean named 'service'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:484 - Finished creating instance of bean 'view'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-12-03 15:17:34 DEBUG ClassPathXmlApplicationContext:769 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@d10f2e]
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-12-03 15:17:34 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-12-03 15:17:34 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-12-03 15:17:34 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-12-03 15:17:34 DEBUG DefaultListableBeanFactory:251 - Returning cached instance of singleton bean 'view'
+2016-12-03 15:17:35 DEBUG StatisticsInitiator:82 - Statistics initialized [enabled=false]
+2016-12-03 15:17:35 DEBUG SQL:92 - select student0_.id as id1_4_0_, student0_.group_id as group_id2_4_0_, student0_.name as name3_4_0_ from students student0_ where student0_.id=?
+2016-12-03 15:17:35 DEBUG ResourceRegistryStandardImpl:73 - HHH000387: ResultSet's statement was not registered
+2016-12-03 15:17:35 DEBUG AbstractLoadPlanBasedEntityLoader:189 - Done entity load : model.Student#2
+2016-12-03 15:17:35 INFO  Service:34 - Finded entity with id = 2
+2016-12-03 15:17:56 DEBUG DriverManagerConnectionProviderImpl:49 - Connection pool now considered primed; min-size will be maintained
