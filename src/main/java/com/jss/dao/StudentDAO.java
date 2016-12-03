@@ -2,6 +2,7 @@ package com.jss.dao;
 
 import com.jss.model.Student;
 import com.jss.service.Service;
+import lombok.Data;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
 
@@ -20,8 +21,9 @@ import static com.jss.factory.LazySingletonEntityManagerfactory.getEntityMangerF
  * Преимуществом трансляции исключений является то, что слой сервиса будет иметь дело с общей иерархией исключений от Spring (DataAccessException)
  * вне зависимости от используемых технологий доступа к данным в слое данных.
  */
-@Repository
-public class StudentDAO extends GeneralDAO implements CommonDAO<Student, Integer>{
+@Data
+@Repository//instead @Component
+public class StudentDAO extends GeneralDAO<Student, Integer> implements CommonDAO<Student, Integer>{
 
     Logger LOGGER = Logger.getLogger(Service.class);
     EntityManagerFactory factory = getEntityMangerFactory();
@@ -59,11 +61,6 @@ public class StudentDAO extends GeneralDAO implements CommonDAO<Student, Integer
 
     @Override
     public boolean addNewEntity(Student entity) {
-        return false;
-    }
-
-    @Override
-    public boolean updateEntityInfo(Student entity) {
         return false;
     }
 }

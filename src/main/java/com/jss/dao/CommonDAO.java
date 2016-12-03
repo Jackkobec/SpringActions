@@ -1,6 +1,7 @@
 package com.jss.dao;
 
 import org.apache.log4j.Logger;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -18,8 +19,8 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
 
     Logger LOGGER = Logger.getLogger(CommonDAO.class);
     EntityManagerFactory factory = getEntityMangerFactory();
-    //EntityManagerFactory spring_task.factory = Persistence.createEntityManagerFactory("hibernate-unit");
 
+    @Transactional
     default ENTITY_CLASS create(ENTITY_CLASS entity) {
 
         EntityManager manager = factory.createEntityManager();
@@ -40,6 +41,7 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
         return entity;
     }
 
+    @Transactional
     default ENTITY_CLASS findById(ID_TYPE id, Class<ENTITY_CLASS> entityClass) {
 
         EntityManager manager = factory.createEntityManager();
@@ -56,6 +58,7 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
         }
     }
 
+    @Transactional
     default List<ENTITY_CLASS> getAllByEntityClass(Class<ENTITY_CLASS> entityClass) {
 
         EntityManager manager = factory.createEntityManager();
@@ -76,7 +79,8 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
         }
     }
 
-    default List<ENTITY_CLASS> getAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, Object parameter,
+    @Transactional
+    default List<ENTITY_CLASS> getAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, String parameter,
                                                                Object valueOfParameter) {
 
         EntityManager manager = factory.createEntityManager();
@@ -84,11 +88,11 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
         TypedQuery<ENTITY_CLASS> query = manager.createQuery("FROM " + entityClass.getName() + " e " +
                 "WHERE " + "e." + parameter + "=:" + parameter, entityClass);//worked
 
-        query.setParameter(parameter.toString(), valueOfParameter);//ask what is first arg
+        query.setParameter(parameter, valueOfParameter);//ask what is first arg
         query.setMaxResults(22);
         query.setFirstResult(0);
-        LOGGER.info("Entities found by class: " + entityClass.getName() + " and parameter: " + parameter.toString() +
-        " = " + valueOfParameter.toString());
+        LOGGER.info("Entities found by class: " + entityClass.getName() + " and parameter: " + parameter +
+                " = " + valueOfParameter.toString());
 
         return query.getResultList();
     }
@@ -120,6 +124,6 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
 
     boolean addNewEntity(ENTITY_CLASS entity);
 
-    boolean updateEntityInfo(ENTITY_CLASS entity);
+    //boolean updateEntityInfo(ENTITY_CLASS entity);
 
 }

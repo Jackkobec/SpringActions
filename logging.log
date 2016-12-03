@@ -2663,3 +2663,141 @@
 2016-12-03 21:56:05 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
 2016-12-03 21:56:06 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
 2016-12-03 21:56:06 INFO  Service:36 - Finded entity with id = 2
+2016-12-03 22:18:31 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 22:18:31 EET 2016]; root of context hierarchy
+2016-12-03 22:18:31 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 22:18:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 22:18:32 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 22:18:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 22:18:32 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 22:18:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 22:18:33 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 22:18:33 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 22:18:33 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 22:18:33 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 22:18:33 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 22:18:33 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 22:18:33 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 22:18:34 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 22:18:34 INFO  CommonDAO:32 - entity was saved
+2016-12-03 22:18:34 INFO  Service:41 - Finded entity with id = 2
+2016-12-03 22:18:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-03 22:18:35 INFO  CommonDAO:90 - Entities found by class: com.jss.model.Student and parameter: group_id = 7
+2016-12-03 22:20:03 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 22:20:03 EET 2016]; root of context hierarchy
+2016-12-03 22:20:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 22:20:04 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 22:20:04 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 22:20:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 22:20:04 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 22:20:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 22:20:04 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 22:20:04 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 22:20:04 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 22:20:04 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 22:20:04 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 22:20:04 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 22:20:05 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 22:20:05 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 22:20:06 INFO  CommonDAO:33 - entity was saved
+2016-12-03 22:20:06 INFO  Service:41 - Finded entity with id = 2
+2016-12-03 22:20:06 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-03 22:20:06 INFO  CommonDAO:91 - Entities found by class: com.jss.model.Student and parameter: group_id = 7
+2016-12-03 22:24:07 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 22:24:07 EET 2016]; root of context hierarchy
+2016-12-03 22:24:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 22:24:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 22:24:09 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 22:24:09 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 22:24:09 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 22:24:09 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 22:24:09 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 22:24:09 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 22:24:09 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 22:24:09 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 22:24:09 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 22:24:09 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 22:24:10 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 22:24:10 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 22:24:11 INFO  CommonDAO:33 - entity was saved
+2016-12-03 22:24:11 INFO  Service:41 - Finded entity with id = 2
+2016-12-03 22:24:11 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-03 22:24:11 INFO  CommonDAO:91 - Entities found by class: com.jss.model.Student and parameter: group_id = 7
+2016-12-03 22:48:53 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 22:48:53 EET 2016]; root of context hierarchy
+2016-12-03 22:48:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 22:48:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 22:48:54 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 22:48:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 22:48:54 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 22:48:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 22:48:54 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 22:48:54 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 22:48:54 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 22:48:54 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 22:48:54 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 22:48:55 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 22:48:55 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 22:48:55 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 22:48:56 INFO  CommonDAO:33 - entity was saved
+2016-12-03 22:48:56 INFO  Service:43 - Finded entity with id = 2
+2016-12-03 22:48:56 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2016-12-03 22:48:56 INFO  CommonDAO:94 - Entities found by class: com.jss.model.Student and parameter: group_id = 7
+2016-12-03 22:58:35 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 22:58:35 EET 2016]; root of context hierarchy
+2016-12-03 22:58:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 22:58:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 22:58:36 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 22:58:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 22:58:36 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 22:58:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 22:58:36 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 22:58:36 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 22:58:36 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 22:58:36 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 22:58:36 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 22:58:37 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 22:58:37 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 22:58:37 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 22:58:38 INFO  CommonDAO:53 - Finded entity with id = 2
+2016-12-03 23:00:25 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 23:00:25 EET 2016]; root of context hierarchy
+2016-12-03 23:00:25 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 23:00:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 23:00:26 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 23:00:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 23:00:26 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 23:00:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 23:00:26 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 23:00:26 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 23:00:26 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 23:00:26 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 23:00:26 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 23:00:27 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 23:00:27 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 23:00:27 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 23:00:28 INFO  CommonDAO:53 - Finded entity with id = 7
+2016-12-03 23:12:49 INFO  ClassPathXmlApplicationContext:578 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cac736f: startup date [Sat Dec 03 23:12:49 EET 2016]; root of context hierarchy
+2016-12-03 23:12:49 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [ios/app_context.xml]
+2016-12-03 23:12:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-unit
+	...]
+2016-12-03 23:12:50 INFO  Version:37 - HHH000412: Hibernate Core {5.0.3.Final}
+2016-12-03 23:12:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2016-12-03 23:12:50 INFO  Environment:317 - HHH000021: Bytecode provider name : javassist
+2016-12-03 23:12:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+2016-12-03 23:12:50 WARN  DriverManagerConnectionProviderImpl:72 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-12-03 23:12:50 INFO  DriverManagerConnectionProviderImpl:128 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testh]
+2016-12-03 23:12:50 INFO  DriverManagerConnectionProviderImpl:137 - HHH000046: Connection properties: {user=root, password=****}
+2016-12-03 23:12:50 INFO  DriverManagerConnectionProviderImpl:142 - HHH000006: Autocommit mode: false
+2016-12-03 23:12:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2016-12-03 23:12:50 INFO  Dialect:154 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-03 23:12:50 INFO  LobCreatorBuilderImpl:98 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-12-03 23:12:51 INFO  SchemaUpdate:101 - HHH000228: Running hbm2ddl schema update
+2016-12-03 23:12:51 INFO  CommonDAO:33 - entity was saved
