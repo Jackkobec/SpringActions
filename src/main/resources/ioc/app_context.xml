@@ -14,7 +14,7 @@
        <context:component-scan base-package="com.jss"/>
 
        <aop:aspectj-autoproxy/><!--Для AOP аспектов-->
-       <!--<<bean id="myAspect" class="ua.artcode.week8.aop.MyAspect"/>>-->
+       <!--<<bean id="myAspect" class="com.jss.MyAspect"/>>-->
 
        <!--<import resource="app-context.xml"/>-->
 

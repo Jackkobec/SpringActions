@@ -19,7 +19,7 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
 
 
     Logger LOGGER = Logger.getLogger(CommonDAO.class);
-    EntityManagerFactory factory =  new ClassPathXmlApplicationContext("/ioc/app_context.xml").getBean(EntityManagerFactory.class);
+    EntityManagerFactory factory =  getEntityMangerFactory();//new ClassPathXmlApplicationContext("/ioc/app_context.xml").getBean(EntityManagerFactory.class);
 
     @Transactional
     default ENTITY_CLASS create(ENTITY_CLASS entity) {

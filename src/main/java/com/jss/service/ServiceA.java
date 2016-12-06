@@ -18,7 +18,7 @@ import java.util.List;
 //instead
 @Component
 //@org.springframework.stereotype.Service//cause name of file and class equals annotation name
-public class Service<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID_TYPE> {
+public class ServiceA<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID_TYPE> {
 
 
 //    @Autowired
@@ -30,7 +30,7 @@ public class Service<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID
 //    }
 
 
-    public Service() {
+    public ServiceA() {
     }
 
     @Autowired
