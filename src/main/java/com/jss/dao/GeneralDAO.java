@@ -11,5 +11,6 @@ import org.springframework.stereotype.Repository;
 public abstract class GeneralDAO<ENTITY_CLASS, ID_TYPE>
         implements CommonDAO<ENTITY_CLASS, ID_TYPE> {
 
-
+    public GeneralDAO() {
+    }
 }

@@ -10,7 +10,7 @@ import com.jss.service.Service;
 public class View<ENTITY_CLASS, ID_TYPE> {
 
     @Autowired//connect with another bean
-    @Qualifier("service")//if we have a few realisations we create the special identificator for use
+    @Qualifier("view")//if we have a few realisations we create the special identificator for use
     private Service service;
 
     public View() {

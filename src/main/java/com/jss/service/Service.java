@@ -1,11 +1,10 @@
 package com.jss.service;
 
 import com.jss.dao.GeneralDAO;
-import com.jss.dao.StudentDAO;
-import com.jss.model.Student;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
-import javax.persistence.GeneratedValue;
 import java.util.List;
 
 /**
@@ -16,8 +15,9 @@ import java.util.List;
  * @Service - (Сервис-слой приложения) Аннотация обьявляющая, что этот класс представляет собой сервис – компонент сервис-слоя.
  * Сервис является подтипом класса @Component. Использование данной аннотации позволит искать бины-сервисы автоматически.
  */
-//instead @Component
-@org.springframework.stereotype.Service//cause name of file and class equals annotation name
+//instead
+@Component
+//@org.springframework.stereotype.Service//cause name of file and class equals annotation name
 public class Service<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID_TYPE> {
 
 
@@ -29,7 +29,12 @@ public class Service<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID
 //        return studentDAO.getStudentById(id);
 //    }
 
+
+    public Service() {
+    }
+
     @Autowired
+    //@Qualifier("generalDAO")
     private GeneralDAO generalDAO;
 
     @Override

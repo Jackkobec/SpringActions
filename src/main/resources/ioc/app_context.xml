@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+       <!--Annotation apply-->
+       <context:annotation-config/><!--Разрешение на конфигурация с помощью анотация типо @Autowired-->
+       <context:component-scan base-package="com.jss"/>
+
+       <aop:aspectj-autoproxy/><!--Для AOP аспектов-->
+       <!--<<bean id="myAspect" class="ua.artcode.week8.aop.MyAspect"/>>-->
+
+       <!--<import resource="app-context.xml"/>-->
+
+       <!--Path to the app_properties file-->
+       <context:property-placeholder location="ioc/app_properties"/><!--Путь к файлу с разными свойствами приложения-->
+
+       <!--ПОСЛЕ ДОБАВЛЕНИЯ НАСТРОЕК Hibernate СЮДА И СЛЕДУЮЩИЙ BEAN, ФАЙЛ persistence.xml МОЖНО УДАЛИТЬ-->
+       <!--JDBC/ Hibernate properties from persistence.xml for Spring-->
+       <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+              <property name="driverClassName" value="${db.driver}" />
+              <property name="url" value="${db.url}"/>
+              <property name="username" value="${db.user}" />
+              <property name="password" value="${db.pass}" />
+       </bean>
+
+       <!--Hibernate entityManagerFactory for Spring-->
+       <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+              <property name="dataSource" ref="dataSource" />
+              <property name="packagesToScan" value="com.jss.model" /><!--Пакет с Entities-->
+              <property name="jpaVendorAdapter"><!--Кто реализует JPA-->
+                     <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" /><!--JPA реализует HibernateJpaVendorAdapter-->
+              </property>
+              <property name="jpaProperties">
+                     <props>
+                            <prop key="hibernate.hbm2ddl.auto">update</prop><!--Стратегий работы с сущностями(update | create-drop и тд из Hibernate properties)-->
+                            <prop key="hibernate.show_sql">true</prop><!--Показывать ли SQL-->
+                            <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop><!--Диалект с какой базой мы работаем, тут MySQL-->
+                     </props>
+              </property>
+       </bean>
+
+
+</beans>

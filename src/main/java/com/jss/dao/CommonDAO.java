@@ -1,6 +1,7 @@
 package com.jss.dao;
 
 import org.apache.log4j.Logger;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,7 +19,7 @@ public interface CommonDAO<ENTITY_CLASS, ID_TYPE> {
 
 
     Logger LOGGER = Logger.getLogger(CommonDAO.class);
-    EntityManagerFactory factory = getEntityMangerFactory();
+    EntityManagerFactory factory =  new ClassPathXmlApplicationContext("/ioc/app_context.xml").getBean(EntityManagerFactory.class);
 
     @Transactional
     default ENTITY_CLASS create(ENTITY_CLASS entity) {
