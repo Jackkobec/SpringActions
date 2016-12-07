@@ -23,28 +23,28 @@
 
        <!--ПОСЛЕ ДОБАВЛЕНИЯ НАСТРОЕК Hibernate СЮДА И СЛЕДУЮЩИЙ BEAN, ФАЙЛ persistence.xml МОЖНО УДАЛИТЬ-->
        <!--JDBC/ Hibernate properties from persistence.xml for Spring-->
-       <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+       <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
               <property name="driverClassName" value="${db.driver}" />
               <property name="url" value="${db.url}"/>
               <property name="username" value="${db.user}" />
               <property name="password" value="${db.pass}" />
        </bean>
 
-       <!--Hibernate entityManagerFactory for Spring-->
+       &lt;!&ndash;Hibernate entityManagerFactory for Spring&ndash;&gt;
        <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
               <property name="dataSource" ref="dataSource" />
-              <property name="packagesToScan" value="com.jss.model" /><!--Пакет с Entities-->
-              <property name="jpaVendorAdapter"><!--Кто реализует JPA-->
-                     <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" /><!--JPA реализует HibernateJpaVendorAdapter-->
+              <property name="packagesToScan" value="com.jss.model" />&lt;!&ndash;Пакет с Entities&ndash;&gt;
+              <property name="jpaVendorAdapter">&lt;!&ndash;Кто реализует JPA&ndash;&gt;
+                     <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />&lt;!&ndash;JPA реализует HibernateJpaVendorAdapter&ndash;&gt;
               </property>
               <property name="jpaProperties">
                      <props>
-                            <prop key="hibernate.hbm2ddl.auto">update</prop><!--Стратегий работы с сущностями(update | create-drop и тд из Hibernate properties)-->
-                            <prop key="hibernate.show_sql">true</prop><!--Показывать ли SQL-->
-                            <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop><!--Диалект с какой базой мы работаем, тут MySQL-->
+                            <prop key="hibernate.hbm2ddl.auto">update</prop>&lt;!&ndash;Стратегий работы с сущностями(update | create-drop и тд из Hibernate properties)&ndash;&gt;
+                            <prop key="hibernate.show_sql">true</prop>&lt;!&ndash;Показывать ли SQL&ndash;&gt;
+                            <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>&lt;!&ndash;Диалект с какой базой мы работаем, тут MySQL&ndash;&gt;
                      </props>
               </property>
-       </bean>
+       </bean>-->
 
 
 </beans>

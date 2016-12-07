@@ -2,6 +2,9 @@
 
 *.class
 
+# Logging ignore
+*.log
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
