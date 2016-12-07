@@ -1,6 +1,7 @@
 package com.jss.service;
 
 import com.jss.dao.GeneralDAO;
+import com.jss.dao.MyDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -34,52 +35,59 @@ public class ServiceA<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, I
     }
 
     @Autowired
-    //@Qualifier("generalDAO")
-    private GeneralDAO generalDAO;
+    private MyDao myDao;
+
+    public MyDao getMyDao() {
+        return myDao;
+    }
+
+    public void setMyDao(MyDao myDao) {
+        this.myDao = myDao;
+    }
 
     @Override
     public boolean saveToDB(ENTITY_CLASS entity) {
 
-        return generalDAO.create(entity).equals(entity) ? true : false;
+        return myDao.create(entity).equals(entity) ? true : false;
     }
 
 
     @Override
     public ENTITY_CLASS getById(ID_TYPE id, Class<ENTITY_CLASS> cl) {
 
-        return (ENTITY_CLASS) generalDAO.findById(id, cl);
+        return (ENTITY_CLASS) myDao.findById(id, cl);
     }
 
     @Override
     public List<ENTITY_CLASS> getAllByEntityClass(Class<ENTITY_CLASS> entityClass) {
 
-        return generalDAO.getAllByEntityClass(entityClass);
+        return myDao.getAllByEntityClass(entityClass);
     }
 
     @Override
     public List<ENTITY_CLASS> getAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, String parameter,
                                                               Object valueOfParameter) {
 
-        return generalDAO.getAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
+        return myDao.getAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
     }
 
     @Override
     public boolean removeById(ID_TYPE id, Class<ENTITY_CLASS> entityClass) {
 
-        return generalDAO.removeById(id, entityClass);
+        return myDao.removeById(id, entityClass);
     }
 
     @Override
     public boolean removeAllByEntityClass(Class<ENTITY_CLASS> entityClass) {
 
-        return generalDAO.removeAllByEntityClass(entityClass);
+        return myDao.removeAllByEntityClass(entityClass);
     }
 
     @Override
     public boolean removeAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, String parameter,
                                                       Object valueOfParameter) {
 
-        return generalDAO.removeAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
+        return myDao.removeAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
     }
 
 
