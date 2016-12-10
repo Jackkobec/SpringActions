@@ -45,6 +45,8 @@ public class ServiceA<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, I
         this.myDao = myDao;
     }
 
+
+
     @Override
     public boolean saveToDB(ENTITY_CLASS entity) {
 

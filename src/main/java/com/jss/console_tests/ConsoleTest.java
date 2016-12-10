@@ -30,12 +30,13 @@ public class ConsoleTest {
         //System.out.println(service.saveToDB(new Student("Serhii", 22)));
         //System.out.println(service.removeById(11, Student.class));
         //System.out.println(service.getById(11, Student.class));
-//        for (int i = 0; i < 12; i++) {
-//
-//            System.out.println(iservice.saveToDB(new Student("Serhii", 22)));
-//        }
-        System.out.println(iservice.saveToDB(new Student("Serhii", 22)));
-        System.out.println(iservice.removeAllByEntityClassAndParameter(Student.class, "group_id", 22));
+        for (int i = 0; i < 12; i++) {
+
+            System.out.println(iservice.saveToDB(new Student("Serhii", 22)));
+        }
+        //System.out.println(iservice.saveToDB(new Student("Serhii", 22)));
+        //System.out.println(iservice.removeAllByEntityClass(Student.class));
+        System.out.println(iservice.getAllByEntityClass(Student.class));
 
 
     }
