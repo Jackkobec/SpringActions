@@ -25,7 +25,7 @@ public class RegisterServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         applicationContext =
-                (ApplicationContext) getServletContext().getAttribute("ioc/app_context.xml");
+                (ApplicationContext) getServletContext().getAttribute("app_context");
         studentService = applicationContext.getBean(StudentService.class);
     }
 
@@ -51,7 +51,7 @@ public class RegisterServlet extends HttpServlet {
         } else {
             Integer group_id = Integer.parseInt(groupId);
 
-            Student student = new Student("Serhii", 22);
+            Student student = new Student(name, group_id);
             try {
                 Student created = studentService.register(student);
                 req.setAttribute("student", created);

@@ -17,7 +17,7 @@ import java.util.List;
  * Сервис является подтипом класса @Component. Использование данной аннотации позволит искать бины-сервисы автоматически.
  */
 //instead
-@Component
+@Component("ServiceA")//тимя компонента, для вытасктвания по имени
 //@org.springframework.stereotype.Service//cause name of file and class equals annotation name
 public class ServiceA<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, ID_TYPE> {
 
@@ -44,7 +44,6 @@ public class ServiceA<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, I
     public void setMyDao(MyDao myDao) {
         this.myDao = myDao;
     }
-
 
 
     @Override
@@ -92,5 +91,9 @@ public class ServiceA<ENTITY_CLASS, ID_TYPE> implements IService<ENTITY_CLASS, I
         return myDao.removeAllByEntityClassAndParameter(entityClass, parameter, valueOfParameter);
     }
 
+    @Override
+    public ENTITY_CLASS findById(ID_TYPE id, Class<ENTITY_CLASS> entityClass) {
 
+        return  null;//myDao.findById(id, entityClass);
+    }
 }

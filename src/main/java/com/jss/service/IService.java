@@ -7,7 +7,6 @@ import java.util.List;
  */
 public interface IService<ENTITY_CLASS, ID_TYPE> {
 
-
     boolean saveToDB(ENTITY_CLASS entity);
 
     ENTITY_CLASS getById(ID_TYPE id, Class<ENTITY_CLASS> cl);
@@ -23,4 +22,6 @@ public interface IService<ENTITY_CLASS, ID_TYPE> {
 
     boolean removeAllByEntityClassAndParameter(Class<ENTITY_CLASS> entityClass, String parameter,
                                                Object valueOfParameter);
+
+    ENTITY_CLASS findById(ID_TYPE id, Class<ENTITY_CLASS> cl);
 }

@@ -15,7 +15,7 @@
           <input name="name" type="text">
         </li>
         <li>Input rank:
-          <input name="rank" type="text">
+          <input name="group_id" type="text">
         </li>
         <li>Submit:
           <input type="submit">

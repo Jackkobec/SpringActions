@@ -25,17 +25,9 @@
 
     <li>
       <div class="column">
-        rank : ${transfered.rank}
+        group_id : ${transfered.group_id}
       </div>
     </li>
-
-    <li>
-      <div class="column">
-        type : ${transfered.studentType}
-      </div>
-    </li>
-
-
   </ul>
 </div>
 </body>
